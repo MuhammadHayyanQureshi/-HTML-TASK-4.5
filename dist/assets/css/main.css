@@ -1,0 +1,16 @@
+
+.navbar{
+    background-image: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 100%);
+}
+
+.nav-item{
+    transition: 0.5ms ease-in-out;
+}
+
+.nav-item:hover{
+    background-color: gray;
+}
+
+span{
+    color: rgb(0, 0, 135);
+}

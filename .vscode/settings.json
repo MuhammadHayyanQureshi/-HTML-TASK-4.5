@@ -1,0 +1,15 @@
+{
+    
+"liveSassCompile.settings.includeItems": [
+    "/src/assets/css/styles.scss"
+],
+"liveSassCompile.settings.formats": [
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/dist/assets/css"
+    }
+],
+"liveSassCompile.settings.generateMap": true,
+
+}
