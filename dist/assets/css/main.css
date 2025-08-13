@@ -1,6 +1,13 @@
 
+
 .navbar{
     background-image: linear-gradient(0deg, rgba(110, 5, 5, 1) 51%, rgba(156, 14, 14, 1) 100%);
+}
+
+.btn{
+    width: 20rem;
+    height: 3rem;
+        background-image: linear-gradient(0deg, rgb(178, 27, 27) 51%, rgb(217, 64, 64) 100%);
 }
 
 .nav-item{
@@ -11,6 +18,12 @@
     background-color: gray;
 }
 
-span{
+.m-text{
     color: rgb(0, 0, 135);
+}
+ .img-conf-cont{
+    float: right;
+}
+.img-conf-cont > .confidential{
+    transform: rotate(10deg);
 }
