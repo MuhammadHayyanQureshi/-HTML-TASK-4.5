@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@mixin head-font{
+      font-family: 'Roboto';
+  font-weight: 900;
+}
+
+@mixin para-txt{
+        font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+@mixin para-txt-heavy{
+        font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+h1,h2,h3,h4,h4{
+    @include head-font
+}
+p, .grid-item ~ .container ~ p{
+    @include para-txt
+}
+
+.ln_hd{
+    @include para-txt-heavy
+}
+
 
 $primary: rgb(99, 99, 99);
 $danger: rgb(170, 2, 2);

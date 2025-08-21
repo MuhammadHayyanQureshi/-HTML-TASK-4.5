@@ -12,6 +12,13 @@
         background-image: linear-gradient(0deg, rgb(178, 27, 27) 51%, rgb(217, 64, 64) 100%);
 }
 
+input{
+    width: 15rem;
+}
+
+.conf-img{
+    transform: rotate(6deg);
+}
 .nav-item{
     transition: 0.5ms ease-in-out;
 }
@@ -23,12 +30,15 @@
 .m-text{
     color: rgb(0, 0, 135);
 }
- .img-conf-cont{
-    float: right;
+
+
+.img-box{
+    background-image: url(../../../src/images/form_bg.jpg);
+    background-size: cover;
+    width: 100%;
 }
-.img-conf-cont > .confidential{
-    transform: rotate(10deg);
-}
+
+
 
 .bg-grad{
             background-image: linear-gradient(0deg, rgb(74, 0, 0) 51%, rgb(149, 0, 0) 100%);

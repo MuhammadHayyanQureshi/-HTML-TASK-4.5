@@ -12,25 +12,26 @@
         <link rel="stylesheet" href="../dist/assets/css/styles.css">
         <link rel="stylesheet" href="../dist\assets\css\main.css">
 
-    <body class="bg-primary mx-lg-4 mx-sm-0">
+    <body class="bg-primary mx-lg-3 mx-0 mx-sm-0">
         <header class="bg-white">
 
            <div
-            class="row">
+            class="row mb-3">
             <div class="col d-lg-flex justify-content-between">
               <div>
                 <img
                     src="../src/images/logo.png"
                     alt="Logo"
-                    class="img-fluid logo"
+                    class="img-fluid"
+                    style="width: 100%;"
                 />
               </div>
 
-              <div class="text-center">
-                <h1 class="text-danger">CALL OUR OFFICES NOW</h1>
-                <hr class="p-0 m-0 border-4 opacity-100">
+              <div class="text-center mx-5 my-auto d-lg-block d-sm-none">
+                <h1 class="text-danger fs-3">CALL OUR OFFICES NOW</h1>
+                <hr class="p-0 m-0 border-2 opacity-50">
                 <h1 class="fw-bold p-0 m-0">540.433.6906</h1>
-                <p class="fs-2">Get Your Questions Answered First</p>
+                <p class="fs-5 m-0">Get Your Questions Answered First</p>
               </div>
             
             </div>
@@ -72,125 +73,79 @@
         </header>
         <main>
             <section class="bg-white py-lg-5">
-                <div class="px-lg-5">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                        <img src="../src/images/gurantee_banner.gif" alt="" class="img-fluid" width="100%">
-                </div>
-                     <div class="col-12 col-lg-6">
-                        <div class="img-fluid" style="background-image: url(../src/images/form_bg.jpg); background-size: cover;">
-                          
-                                               <div class="col">
-                                                <div class="row">
-                                                  <div class="col">
-                                                                                 <div class="d-lg-flex justify-content-end pb-2">
-                            <div>
-                            <h2 class="bg-danger d-inline"><span class="text-white fs-2 p-lg-3 p-sm-2 m">QUESTIONS?</span></h2>
+                <div class="row">
+                  <div class="col">
+                    <div class="d-xl-flex justify-content-evenly">
+                      <img src="../src/images/gurantee_banner.gif" alt="" width="100%" class="ms-xl-3 me-xl-3 m-sm-0 m-0">
+
+                      
+                        <div class="img-box img-fluid me-3">
+
+                          <div class="text-head-cont d-flex">
+                            <div class="me-4">
+                              <h2 class="bg-danger text-white p-2 text-center" style="width: 15rem;">QUESTIONS?</h2>
                             </div>
-                            <div>
-                                    <p class="fs-2 fw-bold mx-lg-auto my-lg-auto px-xl-5">Have a <span class="fs-1 m-text">Question</span> About Your Case?</p>
+                            <div class="container">
+                                <h3 class="px-lg-5 mx-lg-3 fs-3 p-0 mx-2">Have a <span class="fs-1 m-text">Question</span> about your Case?</h3>
                             </div>
-                        </div>
-                                 <div class="fs-4 px-3 mb-2">
-                              Enter your information and get your questions answered quickly and discreetly or call us at: <span class="fw-bold">540.433.6906</span>
-                            </div>
-        
-                                                  </div>
-                                                </div>
-                           
-
-                            <div id="Question-box">
-
-                              <div class="row">
-                                <div class="col">
-                                  <div class="input-box-quest-cont">
-                    <div class="input-box">
-                      <div class="row justify-content-center align-items-center g-2 flex-column d-lg-inline-flex">
-                        <div class="col d-lg-flex px-3 py-1">
-                          <h5 class="px-2">
-                          NAME:
-                          </h5>
-                          <input type="text" class="input" style="width: 14rem;">
-                        </div>
-                          <div class="col d-lg-flex px-3 py-1">
-                          <h5 class="px-2">
-                          EMAIL:
-                          </h5>
-                          <input type="text" style="width: 14rem;">
-                        </div>
-                          <div class="col d-lg-flex px-2 py-1">
-                          <h5 class="px-2">
-                          PHONE:
-                          </h5>
-                          <input type="text" style="width: 14rem;">
-                        </div>
-                      </div>
-
-                       <div class="img-conf-cont mx-5 my-5">
-                                                    <img src="images\confidential.png" alt="" class="confidential img-fluid">
-                        </div>
-                        
-</div>
-                 </div>
-                                </div>
-                              </div>
-                        <div class="row">
-                          <div class="col">
-                                        <div class="form-case-conts">
-            <div class="input-group px-4 my-2">
-  <textarea class="form" aria-label="textarea" style="width: 50rem;" placeholder="Tell us about your case here.."></textarea>
-</div>
-
-
-            <div class="about-footer-box d-lg-flex justify-content-evenly align-items-center">
-                <h5 class="text-gur text-body-secondary"><em>100% Primary Guaranteed</em></h5>
-                <div class="btn-cont-ask">
-                    <button type="button" class="btn fs-5 text-white">ASK US ABOUT YOUR CASE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
-                </div>
-            </div>
-
-            </div>                    
                           </div>
-                        </div>
-        
-            
-            </div>
+                         <p class="fs-4 px-3 mb-1">Enter Your Information and get your questions answered quickly and discreetly or call us at: <span class="fw-bold">540.433.6906</span></p>
 
-        </div>
-                </div>
-            </div>
-        </div>
+                                   <div class="col">
+                          <div class="row row-cols-2">
+                            <div class="col">
+                               <div class="form-group ps-4 mb-2">
+                                 <label class="fs-4">NAME:</label>
+                                <input type="text" class="form" id="Username" aria-describedby="Name">
+                                  </div>
+                                          <div class="form-group ps-4 mb-2">
+                                 <label class="fs-4">EMAIL:</label>
+                                <input type="text" class="form" id="Username" aria-describedby="Name">
+                                  </div>
+                                          <div class="form-group ps-3">
+                                 <label class="fs-4">PHONE:</label>
+                                <input type="text" class="form" id="Username" aria-describedby="Name">
+                                  </div>  
                             </div>
-                              
-                            
+                              <div class="col d-flex justify-content-center align-items-center">
+                              <img src="/src/images/confidential.png" alt="" class="conf-img img-fluid" width="70%">
+                          </div>
+                          </div>
+                          <textarea class="mx-5 my-auto mt-2" name="" id="" placeholder="Tell us about your case here..." style="width: 80%;"></textarea>
+                        </div>
+
+                        <div class="col d-flex justify-content-center align-content-center container-fluid p-3">
+                          <h5 class="fst-italic align-content-center text-primary">100% Privacy Guaranteed</h5>
+                                              <button type="button" class="ms-5 btn justify-content-center align-content-center fs-6 text-white float-sm-start  rounded-0 float-end pb-2 border-0" style="height: 3rem; width: 40%;">CLICK HERE</button>
+                        </div>
+
+                        </div>
+                    </div>
+                  </div>
                 </div>
-                </div>
-            </section>
 
 
-            <section class="bg-white pb-5">
+            <section class="bg-white pb-5 mt-3">
       
               <div class="mx-5">
                 <div class="row row-cols-1">
 
-                  <div class="col-lg-4 border-end p-0 border-1 col-sm-12">
+                  <div class="col-lg-4 border-end border-1 col-sm-12 mb-sm-3">
                     <div class="grid-item">
                       
-                      <div class="container m-sm-2 p-2">
-                            <h2 class="d-inline">CHARGED WITH <span class="text-danger">DUI?</span></h2>
-                                                <img src="../src/images/paste_board.gif" alt="" class="img-fluid float-end pb-2 mx-2" width="25%">
+                            <h2>CHARGED WITH <span class="text-danger">DUI?</span></h2>
+                                                <img src="../src/images/paste_board.gif" alt="" class="img-fluid float-end pb-2 mx-2 my-auto" width="20%">
                       <h1 class="text-danger fs-5">FREE CASE EVALUATION</h1>
-                      <div class="container p-0">
-                            <p>Being charged with DUI <br> can be scary. Get the help you deserve.</p>
+                      <div class="container p-0 m-0">
+                            <p class="fs-5">Being charged with DUI <br> can be scary. Get the help you deserve.</p>
                       
-                      <p>Click here to let us know <br> how we can help you with<br> the case.</p>
+                      <p class="fs-5">Click here to let us know <br> how we can help you with<br> the case.</p>
                       </div>
 
                      <div class="btn-cont-ask">
-                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white rounded-0 float-end pb-2 border-0" style="height: 2rem; width: 30%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
+                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white float-sm-start  rounded-0 float-end pb-2 border-0" style="height: 2rem; width: 35%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
                 </div>
 
-                    </div>
 
 
 
@@ -201,13 +156,12 @@
                    <div class="row d-flex flex-column">
                   <div class="col-lg-auto border-bottom border-1 col-sm-12">
 
-
                       <div class="grid-item">
-                                             <img src="../src/images/pic1.gif" alt="" class="img-fluid float-end p-2 mx-3" width="40%">
-                      <h3 class="d-inline">LAW<span class="text-danger"> BLOG</span></h3>
-                      <p>Learn more about <br>Virginia Traffic Laws.</p>
+                                             <img src="../src/images/pic1.gif" alt="" class="img-fluid float-end" width="35%">
+                      <h3>LAW<span class="text-danger"> BLOG</span></h3>
+                      <p class="fs-5 ln_hd">Learn more about <br>Virginia Traffic Laws.</p>
                            <div class="btn-cont-ask my-4">
-                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white rounded-0 float-end pb-2 border-0" style="height: 2rem; width: 30%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
+                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white rounded-0 float-sm-start float-end pb-2 border-0" style="height: 2rem; width: 35%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" width="10px"> </button>
                 </div>
                     </div>
 
@@ -215,17 +169,17 @@
 
                 </div>
 
-                   <div class="col-auto">
+                   <div class="col-auto mb-sm-5">
 
 
                       <div class="grid-item my-3">
-                      <h3 class="d-inline">CASE<span class="text-danger"> RESULTS</span></h3>
-                                            <img src="../src/images/order_icon.gif" alt="" class="img-fluid float-end pb-2 mb-5 mx-3" width="40%">
-                      <p>See how we help our clients. <br>
+                      <h3 class="d-md-inline">CASE<span class="text-danger"> RESULTS</span></h3>
+                                            <img src="../src/images/order_icon.gif" alt="" class="img-fluid float-end pb-2 mb-5 mb-sm-0" width="35%">
+                      <p class="fs-6">See how we help our clients. <br>
                        Read our latest case results.
                       </p>
                           <div class="btn-cont-ask">
-                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white rounded-0 float-end pb-2 border-0" style="height: 2rem; width: 30%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
+                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white rounded-0 float-sm-start float-end pb-2 border-0" style="height: 2rem; width: 35%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
                 </div>
                     </div>
                 </div>
@@ -234,28 +188,26 @@
                 </div>
                
 
-                <div class="col-lg-3 col-sm-12">
+                <div class="col-lg-4 col-sm-12">
                   <div class="row">
                     
                     
                     <div class="grid-item">
-                        <div class="container d-flex justify-content-center justify-content-sm-evenly">
-                            <img src="../src/images/qqq.gif" alt="" class="img-fluid" width="35%">
-                                            <img src="../src/images/national_college_small.gif" alt="" class="img-fluid" width="30%">
+                        <div class="container d-flex justify-content-center justify-content-sm-evenly mb-sm-3">
+                            <img src="../src/images/qqq.gif" alt="" class="img-fluid" width="30%">
+                                            <img src="../src/images/national_college_small.gif" alt="" class="img-fluid" width="25%">
                         </div>
                       <div class="container">
 
-                      <h1 class="fs-5">CERTIFICATES & <span class="text-danger">CREDENTIALS</span></h1>
+                      <h3 class="pe-5">CERTIFICATES & <span class="text-danger">CREDENTIALS</span></h3>
                       <div class="container p-0">
-                            <p>Being charged with DUI <br> can be scary. Get the help you deserve.</p>
-                      
-                      <p>Click here to let us know <br> how we can help you with<br> the case.</p>
+                            <p class="fs-5">Keefer Law Firm has protected the <br> rights of Virginians for over 30 years.</p>
                       </div>
                       
 
                     </div>
                   <div class="btn-cont-ask">
-                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white rounded-0 float-end pb-2 border-0" style="height: 2rem; width: 30%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
+                    <button type="button" class="m-0 p-0 btn justify-content-center align-content-center fs-6 text-white rounded-0 float-end pb-2 border-0" style="height: 2rem; width: 35%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
                 </div>
 
                   </div>
@@ -276,40 +228,39 @@
 
                   <div class="bg-custom">
                      <div class="text-white">
-                                          <div class="bg-grad me-3 float-start" style="width: 1rem; height: 5.1rem;"></div>
-
+                   <div class="bg-grad me-3 float-start" style="width: 5%; height: 4.8rem;"></div>
                       <h3 class="py-1">DUI & DWI</h3>
-                      <p class="text-end pb-2">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
+                      <p class="text-end pb-2 ln_hd">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
                      </div>
                   </div>
 
                    <div class=" bg-custom">
                      <div class="text-white">
-                                                                <div class="bg-grad me-3 float-start" style="width: 1rem; height: 5.1rem;"></div>
-                      <h3 class="py-1">DUI & DWI</h3>
-                      <p class="text-end pb-2">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
+                   <div class="bg-grad me-3 float-start" style="width: 5%; height: 4.8rem;"></div>
+                      <h3 class="py-1">RECKLESS DRIVING</h3>
+                      <p class="text-end pb-2 ln_hd">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
                      </div>
                   </div>
 
                    <div class=" bg-custom">
 
                      <div class="text-white">
-                                                                <div class="bg-grad me-3 float-start" style="width: 1rem; height: 5.1rem;"></div>
+                   <div class="bg-grad me-3 float-start" style="width: 5%; height: 4.8rem;"></div>
 
-                      <h3 class="py-1">DUI & DWI</h3>
-                      <p class="text-end pb-2">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
+                      <h3 class="py-1">SPEEDING TICKETS</h3>
+                      <p class="text-end pb-2 ln_hd">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
                      </div>
                   </div>
 
                    <div class=" bg-custom">
                      <div class="text-white">
-                                                                <div class="bg-grad me-3 float-start" style="width: 1rem; height: 5.1rem;"></div>
-                      <h3 class="py-1">DUI & DWI</h3>
-                      <p class="text-end pb-2">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
+                   <div class="bg-grad me-3 float-start" style="width: 5%; height: 4.8rem;"></div>
+                      <h3 class="py-1">TRAFFIC VIOLATIONS</h3>
+                      <p class="text-end pb-2 ln_hd">LEARN MORE <img src="../src/images/bullet_red.gif" alt=""></p>
                      </div>
                   </div>
 
-                  <h3 class="mt-5">LEARN <span class="text-danger">MORE</span> ABOUT</h3>
+                  <h3 class="mt-5 text-center ln_hd">LEARN <span class="text-danger">MORE</span> ABOUT</h3>
 
                 </div>
 
@@ -336,61 +287,55 @@
                   <div
                     class="row"
                   >
-                 <div class="col-auto">
+                 <div class="col-12 py-2">
                   <div class="grid-item">
-                    <div class="container">
-                      <div class="text-cont d-lg-flex flex-lg-column d-sm-flex flex-sm-row pe-5">
-                        <h3>CLIENT <span class="text-danger">TESTIMONIALS</span></h3>
+                      <div class="text-cont d-lg-flex flex-lg-column d-sm-flex flex-sm-row pe-3 justify-content-between">
+                        <h3 class="pe-5">CLIENT <span class="text-danger">TESTIMONIALS</span></h3>
                         <p class="ms-1 mb-1 text-sm-center text-lg-start">Read what others say about Keefer Law Firm. </p>
                       </div>
                           <div class="btn-cont-ask text-sm-center">
                     <button type="button" class="m-0 p-0 btn fs-6 text-white rounded-0 border-0" style="height: 1.5rem; width: 35%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
                 </div>
-                    </div>
                 </div>
                  </div>
 
-                    <div class="col-auto">
+                    <div class="col-12 py-2">
                   <div class="grid-item">
-                    <div class="container">
-                      <div class="text-cont d-lg-flex flex-lg-column d-sm-flex flex-sm-row pe-5">
+                      <div class="text-cont d-lg-flex flex-lg-column d-sm-flex flex-sm-row justify-content-between">
                         <h3 class="pe-5">DOWNLOAD <span class="text-danger">FREE</span> REPORTS</h3>
                         <p class="ms-1 mb-1 text-sm-center text-lg-start">Discover the truth about the Virginia Law. </p>
                       </div>
                           <div class="btn-cont-ask text-sm-center">
                     <button type="button" class="m-0 p-0 btn fs-6 text-white rounded-0 border-0" style="height: 1.5rem; width: 35%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
                 </div>
-                    </div>
                 </div>
                  </div>
 
-                    <div class="col-12">
+                    <div class="col-12 py-2">
                   <div class="grid-item">
-                    <div class="container">
-                      <div class="text-cont d-lg-flex flex-lg-column d-sm-flex flex-sm-row pe-5">
-                        <h3>CONTACT <span class="text-danger">OUR</span> OFFICES</h3>
+                      <div class="text-cont d-lg-flex flex-lg-column d-sm-flex flex-sm-row justify-content-between">
+                        <h3 class="pe-3">CONTACT <span class="text-danger">OUR</span> OFFICES</h3>
                         <p class="ms-1 mb-1 text-sm-center text-lg-start">Get your questions answered right now. </p>
                       </div>
                           <div class="btn-cont-ask text-sm-center">
                     <button type="button" class="m-0 p-0 btn fs-6 text-white rounded-0 border-0" style="height: 1.5rem; width: 35%;">CLICK HERE <img src="../src/images/bullet_white.gif" alt="" class="image-fluid"> </button>
                 </div>
-                    </div>
                 </div>
                  </div>
 
-                  <div class="col-12">
+                  <div class="col-12 py-2">
                     <div class="container">
                       <div class="d-flex justify-content-center align-items-center flex-column">
-                      <img src="/src/images/qqq.gif" alt="" class="img-fluid m-3" width="40%">
-                  <img src="/src/images/national_college_small.gif" alt="" class="img-fluid m-3" width="40%"> 
+                      <img src="/src/images/qqq.gif" alt="" class="img-fluid m-3" width="20%">
+                  <img src="/src/images/national_college_small.gif" alt="" class="img-fluid m-3" width="20%"> 
                       </div>
 
                   <div class="container d-flex justify-content-center align-items-center flex-column">
-                    <h1 class="mx-2">Follow <span class="text-danger">Us</span></h1>
-                    <div class="container d-flex justify-content-evenly">
-                      <img src="/src/images/fb_icon.gif" alt="">
-                    <img src="/src/images/google_icon.gif" alt="">
-                    <img src="/src/images/linked_icon.gif" alt="">
+                    <h1 class="mx-2 fs-4">Follow <span class="text-danger">Us</span></h1>
+                    <div class="container d-flex justify-content-center">
+                      <img src="/src/images/fb_icon.gif" alt="" class="me-2">
+                    <img src="/src/images/google_icon.gif" alt="" class="me-2">
+                    <img src="/src/images/linked_icon.gif" alt="" class="me-2">
                     <img src="/src/images/twitter_icon.gif" alt="">
                     </div>
                   </div>
